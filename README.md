@@ -1,0 +1,1 @@
+- download ADF essentials version 12.2.1.3.0 here : https://www.oracle.com/technetwork/developer-tools/adf/downloads/index.html

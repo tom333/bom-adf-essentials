@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+	<localRepository>./localmavenrepo</localRepository>
+  <proxies>
+		<proxy>
+			<active>true</active>
+			<protocol>http</protocol>
+			<host>proxy.recif.nc</host>
+			<port>80</port>
+			<nonProxyHosts>artifactory.ref.gnc|*.recif.nc|localhost|*.appli-gestion.nc|*.gnc</nonProxyHosts>
+		</proxy>
+	</proxies>
+	<!-- <mirrors>
+		<mirror>
+			<id>enterprise-repo</id>
+			<name>remote-repos</name>
+			<mirrorOf>*,!libs-release-local,!libs-snapshot-local,!plugins-release-local,!plugins-snapshot-local</mirrorOf>
+			<url>https://localhost:8081/artifactory/virtual-maven-remote-repositories</url>
+		</mirror>
+	</mirrors>
+  <repositories>
+   <repository>
+    <id>libs-snapshot-local</id>
+    <name>libs-snapshot-local</name>
+    <url>https://localhost:8081/artifactory/libs-snapshot-local</url>
+   </repository>
+   <repository>
+    <id>libs-release-local</id>
+    <name>libs-release-local</name>
+    <url>https://localhost:8081/artifactory/libs-release-local</url>
+   </repository>
+  </repositories> -->
+</settings>

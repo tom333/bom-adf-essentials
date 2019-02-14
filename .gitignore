@@ -1,0 +1,11 @@
+data
+target
+
+.settings
+.project
+localmavenrepo
+.mvn
+
+adf-essentials.zip
+dependencies.pom
+modules
