@@ -6,6 +6,7 @@ target
 localmavenrepo
 .mvn
 
-adf-essentials.zip
+adf-essentials-client-ear.zip
 dependencies.pom
 modules
+util
